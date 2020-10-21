@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\naka999\\source\\repos\\CWTDDTests\\CWTDDTests\\CWTDDTests.csproj": {}
+    "C:\\TestRepos\\CWTTD\\CWTDD\\CWTDDTests\\CWTDDTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\naka999\\source\\repos\\CWTDDTests\\CWTDDTests\\CWTDDTests.csproj": {
+    "C:\\TestRepos\\CWTTD\\CWTDD\\CWTDDTests\\CWTDDTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\naka999\\source\\repos\\CWTDDTests\\CWTDDTests\\CWTDDTests.csproj",
+        "projectUniqueName": "C:\\TestRepos\\CWTTD\\CWTDD\\CWTDDTests\\CWTDDTests.csproj",
         "projectName": "CWTDDTests",
-        "projectPath": "C:\\Users\\naka999\\source\\repos\\CWTDDTests\\CWTDDTests\\CWTDDTests.csproj",
-        "packagesPath": "C:\\Users\\naka999\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\naka999\\source\\repos\\CWTDDTests\\CWTDDTests\\obj\\",
+        "projectPath": "C:\\TestRepos\\CWTTD\\CWTDD\\CWTDDTests\\CWTDDTests.csproj",
+        "packagesPath": "C:\\Users\\l\\.nuget\\packages\\",
+        "outputPath": "C:\\TestRepos\\CWTTD\\CWTDD\\CWTDDTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\naka999\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\l\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -44,6 +44,10 @@
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.5.0, )"
+            },
+            "NSubstitute": {
+              "target": "Package",
+              "version": "[4.2.2, )"
             },
             "coverlet.collector": {
               "target": "Package",
@@ -73,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
