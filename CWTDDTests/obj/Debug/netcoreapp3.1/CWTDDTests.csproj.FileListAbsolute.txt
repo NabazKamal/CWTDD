@@ -193,3 +193,7 @@ C:\TestRepos\CWTDDTest\CWTDD\CWTDDTests\obj\Debug\netcoreapp3.1\CWTDDTests.cspro
 C:\TestRepos\CWTDDTest\CWTDD\CWTDDTests\obj\Debug\netcoreapp3.1\CWTDDTests.dll
 C:\TestRepos\CWTDDTest\CWTDD\CWTDDTests\obj\Debug\netcoreapp3.1\CWTDDTests.pdb
 C:\TestRepos\CWTDDTest\CWTDD\CWTDDTests\obj\Debug\netcoreapp3.1\CWTDDTests.genruntimeconfig.cache
+C:\TestRepos\CWTTD\CWTDD\CWTDDTests\bin\Debug\netcoreapp3.1\Castle.Core.dll
+C:\TestRepos\CWTTD\CWTDD\CWTDDTests\bin\Debug\netcoreapp3.1\NSubstitute.dll
+C:\TestRepos\CWTTD\CWTDD\CWTDDTests\bin\Debug\netcoreapp3.1\CWTDD.dll
+C:\TestRepos\CWTTD\CWTDD\CWTDDTests\bin\Debug\netcoreapp3.1\CWTDD.pdb

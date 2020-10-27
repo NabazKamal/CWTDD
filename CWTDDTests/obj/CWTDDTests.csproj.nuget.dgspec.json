@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\TestRepos\\CWTDDTest\\CWTDD\\CWTDDTests\\CWTDDTests.csproj": {}
+    "C:\\TestRepos\\CWTTD\\CWTDD\\CWTDDTests\\CWTDDTests.csproj": {}
   },
   "projects": {
-    "C:\\TestRepos\\CWTDDTest\\CWTDD\\CWTDDTests\\CWTDDTests.csproj": {
+    "C:\\TestRepos\\CWTTD\\CWTDD\\CWTDDTests\\CWTDDTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\TestRepos\\CWTDDTest\\CWTDD\\CWTDDTests\\CWTDDTests.csproj",
+        "projectUniqueName": "C:\\TestRepos\\CWTTD\\CWTDD\\CWTDDTests\\CWTDDTests.csproj",
         "projectName": "CWTDDTests",
-        "projectPath": "C:\\TestRepos\\CWTDDTest\\CWTDD\\CWTDDTests\\CWTDDTests.csproj",
-        "packagesPath": "C:\\Users\\naka999\\.nuget\\packages\\",
-        "outputPath": "C:\\TestRepos\\CWTDDTest\\CWTDD\\CWTDDTests\\obj\\",
+        "projectPath": "C:\\TestRepos\\CWTTD\\CWTDD\\CWTDDTests\\CWTDDTests.csproj",
+        "packagesPath": "C:\\Users\\l\\.nuget\\packages\\",
+        "outputPath": "C:\\TestRepos\\CWTTD\\CWTDD\\CWTDDTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\naka999\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\l\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\TestRepos\\CWTDDTest\\CWTDD\\CWTDD\\CWTDD.csproj": {
-                "projectPath": "C:\\TestRepos\\CWTDDTest\\CWTDD\\CWTDD\\CWTDD.csproj"
+              "C:\\TestRepos\\CWTTD\\CWTDD\\CWTDD\\CWTDD.csproj": {
+                "projectPath": "C:\\TestRepos\\CWTTD\\CWTDD\\CWTDD\\CWTDD.csproj"
               }
             }
           }
@@ -59,7 +59,7 @@
             },
             "xunit": {
               "target": "Package",
-              "version": "[2.4.0, )"
+              "version": "[2.4.1, )"
             },
             "xunit.runner.visualstudio": {
               "target": "Package",
@@ -81,24 +81,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\TestRepos\\CWTDDTest\\CWTDD\\CWTDD\\CWTDD.csproj": {
+    "C:\\TestRepos\\CWTTD\\CWTDD\\CWTDD\\CWTDD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\TestRepos\\CWTDDTest\\CWTDD\\CWTDD\\CWTDD.csproj",
+        "projectUniqueName": "C:\\TestRepos\\CWTTD\\CWTDD\\CWTDD\\CWTDD.csproj",
         "projectName": "CWTDD",
-        "projectPath": "C:\\TestRepos\\CWTDDTest\\CWTDD\\CWTDD\\CWTDD.csproj",
-        "packagesPath": "C:\\Users\\naka999\\.nuget\\packages\\",
-        "outputPath": "C:\\TestRepos\\CWTDDTest\\CWTDD\\CWTDD\\obj\\",
+        "projectPath": "C:\\TestRepos\\CWTTD\\CWTDD\\CWTDD\\CWTDD.csproj",
+        "packagesPath": "C:\\Users\\l\\.nuget\\packages\\",
+        "outputPath": "C:\\TestRepos\\CWTTD\\CWTDD\\CWTDD\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\naka999\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\l\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -136,7 +136,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
