@@ -14,3 +14,4 @@ C:\TestRepos\CWTTD\CWTDD\CWTDD\obj\Debug\netcoreapp3.1\CWTDD.AssemblyInfoInputs.
 C:\TestRepos\CWTTD\CWTDD\CWTDD\obj\Debug\netcoreapp3.1\CWTDD.AssemblyInfo.cs
 C:\TestRepos\CWTTD\CWTDD\CWTDD\obj\Debug\netcoreapp3.1\CWTDD.dll
 C:\TestRepos\CWTTD\CWTDD\CWTDD\obj\Debug\netcoreapp3.1\CWTDD.pdb
+C:\TestRepos\CWTDDTest\CWTDD\CWTDD\obj\Debug\netcoreapp3.1\CWTDD.csprojAssemblyReference.cache

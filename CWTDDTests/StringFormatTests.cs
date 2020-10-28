@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Globalization;
+using System.Linq;
 using System.Text;
 using Xunit;
 
@@ -26,6 +27,16 @@ namespace CWTDDTests
             Assert.Equal(expected, result);
 
         }
+
+        [Fact]
+        public void StringFormat_IntArray_SortOddNumbers()
+        {
+            StringFormatter sf = new StringFormatter();
+            int[] array = new int[] {2, 1, 4, 5, 3 };
+            int[] expected = new int[] {2, 1, 4, 3, 5 };
+            int[] res = sf.SortArray2(array);
+            Assert.Equal(expected, res);
+        }
     }
 
     internal class StringFormatter
@@ -38,6 +49,29 @@ namespace CWTDDTests
                                     (int)timeSpan.TotalHours,
                                     timeSpan.Minutes,
                                     timeSpan.Seconds);
+        }
+
+        internal int[] SortArray(int[] array)
+        {
+            //give the numbers an index
+            var indexedArray = array.Select((num, indx) => new { num, indx }).ToList();
+            var odds = indexedArray.Where(x => x.num % 2 == 1);
+            var evens = indexedArray.Where(x => x.num % 2 == 0);
+            var sortedOdds = odds.OrderBy(x => x.num);
+            var reindexedArray = sortedOdds.Zip(odds, (o1,o2) => new { o1.num, o2.indx});
+            var sortedArray = evens.Concat(reindexedArray).OrderBy(x => x.indx).Select(x => x.num);
+
+            return sortedArray.ToArray();
+
+            // array;
+            //return array.OrderBy(x => x % 2==1).ToArray();
+        }
+
+        internal int[] SortArray2(int[] array)
+        {
+            Queue<int> odds = new Queue<int>(array.Where(e => e % 2 == 1).OrderBy(e => e));
+
+            return array.Select(e => e % 2 == 1 ? odds.Dequeue() : e).ToArray();
         }
     }
 }
