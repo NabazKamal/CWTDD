@@ -197,3 +197,4 @@ C:\TestRepos\CWTTD\CWTDD\CWTDDTests\bin\Debug\netcoreapp3.1\Castle.Core.dll
 C:\TestRepos\CWTTD\CWTDD\CWTDDTests\bin\Debug\netcoreapp3.1\NSubstitute.dll
 C:\TestRepos\CWTTD\CWTDD\CWTDDTests\bin\Debug\netcoreapp3.1\CWTDD.dll
 C:\TestRepos\CWTTD\CWTDD\CWTDDTests\bin\Debug\netcoreapp3.1\CWTDD.pdb
+C:\TestRepos\CWTTD\CWTDD\CWTDDTests\obj\Debug\netcoreapp3.1\CWTDDTests.csproj.CoreCompileInputs.cache

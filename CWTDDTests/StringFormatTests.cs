@@ -37,10 +37,27 @@ namespace CWTDDTests
             int[] res = sf.SortArray2(array);
             Assert.Equal(expected, res);
         }
+
+        [Theory]
+        [InlineData(new int[] {2,2,1}, 1)]
+        [InlineData(new int[] {1,3,2,4,2,2,2,1}, 3)]
+        public void StringFormat_IntArray_FindUnique(int[] input, int expected)
+        {
+            StringFormatter sf = new StringFormatter();
+            int i = sf.FindUnique(input);
+            Assert.Equal(expected, i);
+        }
     }
 
     internal class StringFormatter
     {
+        internal int FindUnique(int[] input)
+        {
+            return input.GroupBy(x => x)
+                        .Where(x => x.Count() == 1).First().Key;
+                        //.ToDictionary(x => x.Key, x => x.Count()).Keys.First();
+        }
+
         internal string GetReadableTime(int input)
         {
             TimeSpan timeSpan = TimeSpan.FromSeconds(input);
